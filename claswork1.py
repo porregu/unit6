@@ -1,0 +1,13 @@
+names= ["abigali"," Brenda", "Chad", "Doug", "Emma", "Francis", "George", "Harold", "Imogen", "Jackir", "Kurt", "Linda"]
+print(names[3:5])
+print(names[2:7])
+print(names[4:12])
+print(names[4:12])
+print(names[11])
+print(names[-1])
+print(names[1:8])
+print(names[0:7])
+print(names[0:7])
+print(names[12:8:-1])
+print(names[12:0:-1])
+print(names[-1:0:-1])
