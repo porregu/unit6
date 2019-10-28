@@ -8,3 +8,4 @@ def are_duplicated(nums):
 
 are_duplicated([1, 2, 3, 4, 5])
 print(are_duplicated([1,2,3,4,5,2]))
+print(are_duplicated([1,2,3,4,5]))
