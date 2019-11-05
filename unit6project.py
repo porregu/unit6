@@ -1,9 +1,13 @@
-def lis(nums):
-    blank_list=[]
-    for y in nums:
-        if y not in blank_list:
-            blank_list.append(nums[0])
-        if y%nums!=0 :
-                return blank_list
-    print(lis)
-print(lis([2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]))
+number=int(input("until what number you want ?"))
+list=[]
+for x in range(2, number+1):
+        list.append(x)
+primes=[]
+while len(list)>0:
+    track=list[0]
+    primes.append(list[0])
+    for x in list:
+        if x%track==0:
+            list.remove(x)
+
+print("this is the primes numbers until ",number, primes)
